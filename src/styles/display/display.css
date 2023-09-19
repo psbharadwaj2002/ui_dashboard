@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#display_body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+}
+#display_body .data_container {
+  height: 30px;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f5f5;
+}
+#display_body .data_container .checkbox {
+  display: flex;
+  justify-content: center;
+}
+#display_body .data_container .checkbox input {
+  height: 15px;
+  width: 15px;
+}
+#display_body .data_container .data_div {
+  width: 150px;
+}
+#display_body .data_container .date {
+  width: 100px;
+}
+#display_body .data_container .due {
+  width: 100px;
+}
+#display_body #title .title {
+  font-weight: 600;
+}/*# sourceMappingURL=display.css.map */

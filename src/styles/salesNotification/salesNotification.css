@@ -1,0 +1,38 @@
+#sales {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#sales p {
+  font-size: 24px;
+  font-weight: 600;
+}
+#sales div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 90px;
+}
+#sales div .search_by_type {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sales div .search_by_type p {
+  font-size: 16px;
+  font-weight: 300;
+}
+#sales div .search_by_type input {
+  width: 250px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+  border: 0.5px solid #131313;
+}/*# sourceMappingURL=salesNotification.css.map */
